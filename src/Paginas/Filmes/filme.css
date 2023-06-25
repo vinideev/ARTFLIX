@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Montserrat:wght@300&family=Rubik:wght@300&display=swap');
+
+img {
+    width: 700px;
+    margin: 40px 0;
+    height: 340px;
+    object-fit: cover;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(44, 43, 43);
+    color: white;
+    height: 1000px;
+    font-family: 'Castoro Titling', cursive;
+}
+
+.titulo {
+    margin-top: 40px;
+}
+
+
+strong{
+    width: 600px;
+    margin: 30px;
+}
+
+.area-botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.area-botao button{
+    margin-right: 20px;
+    background-color: white;
+    outline: none;
+    width: 80px;
+    border-radius: 4px;
+    font-size: 18px;
+    border: 0;
+}
+
+.area-botao button:hover{
+    transform: scale(0.8);
+    background-color: black;
+    color: white;
+    transition: all 0.5;
+  
+}
+
+.area-botao a{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 18px;
+    color: black;
+    border-radius: 4px;
+    transition: all 0.5;
+    background-color: white;
+    width: 90px;
+
+}
+
+.area-botao a:hover{
+    transform: scale(0.8);
+    background-color: black;
+    color: white;
+    transition: all 0.5;
+}

@@ -1,0 +1,23 @@
+.container-erro {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+}
+
+.container-erro h1 {
+    font-size: 120px;
+}
+
+.container-erro a {
+    text-decoration: none;
+    background-color: black;
+    color: rgb(182, 20, 20);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.container-erro a:hover{
+    color: rgb(182, 20, 20);
+    opacity: 80%;
+}

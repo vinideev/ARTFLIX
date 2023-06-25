@@ -1,0 +1,22 @@
+.cabecalho {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    width: 100%;
+    
+}
+
+.link-home {
+    text-decoration: none;
+    color: white;
+}
+
+.link-fav {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+}
